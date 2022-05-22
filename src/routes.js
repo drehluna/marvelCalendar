@@ -16,7 +16,6 @@ export default function Routes() {
 
   useEffect(() => {
     persistUser()
-    console.log('asd')
   }, [])
 
 
