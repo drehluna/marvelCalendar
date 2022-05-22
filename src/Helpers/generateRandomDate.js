@@ -7,8 +7,7 @@ function getRandomInt(min, max) {
 export const GenerateRandomDate = () => {
     const currentYear = new Date().getFullYear()
     const currentMonth = new Date().getMonth()
-    const currentDay = new Date().getDay()
-    const randomDay = getRandomInt(currentDay,5)
+    const randomDay = getRandomInt(1,16)
 
     return new Date(currentYear, currentMonth, randomDay)
 }
