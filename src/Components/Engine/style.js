@@ -79,9 +79,7 @@ export const Nav = styled.nav `
     display: flex;
     align-items: center;
     justify-content: center;
-    width: ${props => props.width ? `${props.width + 'px;'}` : '340px;'}
     border: none;
-    height: ${props => props.height ? `${props.height + 'px;'}` : '50px;'}
     border-radius: 8px;
     font-family: Montserrat;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -95,6 +93,8 @@ export const Nav = styled.nav `
     a {
         text-decoration: none;
         color: #FFF;
+        padding: 15px 90px;
+
     }
 
 `
